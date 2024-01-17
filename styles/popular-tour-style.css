@@ -1,0 +1,72 @@
+.popular-tour-container {
+  display: flex;
+  gap: 8vw;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.popular-tour-container-part {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 24px;
+}
+
+.popular-tour-title {
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.popular-tour-info-section {
+  display: grid;
+  row-gap: 18px;
+
+  color: #5a5a5d;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.popular-tour-text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.popular-tour-text-list {
+  padding-left: 16px;
+  display: grid;
+  row-gap: 24px;
+}
+
+.popular-tour-text-list-item {
+  margin-bottom: 5px;
+}
+
+.popular-tour-action-button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.popular-tour-highlight-image {
+  max-width: 100vh;
+  height: auto;
+  border-radius: 5px;
+}

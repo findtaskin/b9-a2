@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+  .popular-tour-container {
+    flex-direction: column;
+  }
+
+  .popular-tour-title {
+    color: #131318;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .popular-tour-info-section {
+    display: grid;
+    row-gap: 0px;
+    color: #5a5a5d;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .popular-tour-text-list {
+    padding-left: 16px;
+    display: grid;
+    row-gap: 18px;
+  }
+}
